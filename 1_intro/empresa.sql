@@ -60,7 +60,8 @@ CREATE TABLE `servicos` (
 
 LOCK TABLES `servicos` WRITE;
 /*!40000 ALTER TABLE `servicos` DISABLE KEYS */;
-INSERT INTO `servicos` VALUES (1,'desenvolvimento'),(2,'análise de banco de dados'),(3,'análise de infraestrutura'),(4,'projeto de softwares'),(5,'design de interfaces');
+INSERT INTO `servicos` VALUES (1,'desenvolvimento'),(2,'análise de banco de dados'),
+(3,'análise de infraestrutura'),(4,'projeto de softwares'),(5,'design de interfaces');
 /*!40000 ALTER TABLE `servicos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
